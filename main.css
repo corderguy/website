@@ -14,8 +14,26 @@ body{
     font:1.2em/1.62 sans-serif;
 }
 
-h1,h2,h3 {
+h1 {
     line-height:1.2;
+}
+
+h2,h3 {
+    line-height:1.2;
+}
+
+a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    text-decoration: underline;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #222222
 }
 
 @media print{
