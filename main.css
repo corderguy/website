@@ -16,6 +16,8 @@ body{
 
 h1 {
     line-height:1.2;
+    font: 2em sans-serif;
+    text-align: center;
 }
 
 h2,h3 {
@@ -36,8 +38,25 @@ a:hover {
     color: #222222
 }
 
+td {
+    text-align: center;
+}
+
+.description {
+    padding-left: 2em;
+}
+
+section.nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    table-layout: fixed
+}
+
 @media print{
     body{
-        max-width:none
+        max-width:none;
     }
 }
