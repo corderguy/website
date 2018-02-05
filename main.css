@@ -55,6 +55,10 @@ table, th, td {
     table-layout: fixed
 }
 
+p {
+    word-wrap: break-word;
+}
+
 @media print{
     body{
         max-width:none;
