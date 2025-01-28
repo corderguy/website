@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Berkeley Mono";
+    src: url(./BerkeleyMono-Regular.woff2) format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Berkeley Mono";
+    src: url(./BerkeleyMono-Bold.woff2) format("woff2");
+    font-style: bold;
+    font-weight: 700;
+}
+
+:root {
+    background-color: #282828;
+}
+
+* {
+    color: #ebdbb2;
+    border-color: #ebdbb2;
+    box-sizing: border-box;
+    font-family: 'Berkeley Mono', monospace;
+}
+
+body {
+    margin: 1rem auto;
+    max-width: 90vw;
+    line-height: 1.2;
+    font-size: 14pt;
+    color: #282828;
+    padding: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
